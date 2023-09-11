@@ -37,7 +37,7 @@ const Steps = () => {
                     <p className='text-sm md:text-lg lg:text-xl font-bold mx-2 mb-12'>3 steps for businesses</p>
                     <ul className='w-fit'>
                         {StepInfo.business.map(e =>
-                            <Step index={e.index} title={e.title} desc={e.desc} />
+                            <Step index={e.index} title={e.title} desc={e.desc} key={e.title} />
                         )}
                     </ul>
                 </div>
@@ -45,7 +45,7 @@ const Steps = () => {
                     <p className='text-sm md:text-lg lg:text-xl text-end font-bold mx-2 mb-12'>3 steps for self-workers</p>
                     <ul className='w-fit self-end'>   
                         {StepInfo.worker.map(e =>
-                            <Step index={e.index} title={e.title} desc={e.desc} reverse={true}/>
+                            <Step index={e.index} title={e.title} desc={e.desc} reverse={true} key={e.title}/>
                         )}
                     </ul>
                 </div>
