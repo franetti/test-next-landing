@@ -14,8 +14,8 @@ function Faq( {title, desc}:Props ) {
     return (
         <>
             <li className='flex items-center mb-4'>
-                <BiSolidRightArrow className="mr-6 text-orange-500" style={{ transform: rotate, transition: "all 0.2s linear"}} onClick={handleRotate}/>
-                <p onClick={handleRotate}>{title}</p>
+                <BiSolidRightArrow className="mr-6 text-orange-500 cursor-pointer" style={{ transform: rotate, transition: "all 0.2s linear"}} onClick={handleRotate}/>
+                <p className='cursor-pointer' onClick={handleRotate}>{title}</p>
             </li>
             <li>              
                 {arrow && (
