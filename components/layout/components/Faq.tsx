@@ -12,7 +12,6 @@ export default function Faq( {title, desc}:Props ) {
     const rotate = arrow ? "rotate(90deg)" : "rotate(0)"
     const descArr = desc.split('<br>');
     
-
     return (
         <>
             <li className='flex items-center mb-4'>
@@ -21,8 +20,8 @@ export default function Faq( {title, desc}:Props ) {
             </li>
             <li>              
                 {arrow && (
-                    descArr.map(x => (
-                        <p className='text-sm lg:text-lg mb-4 lg:pr-20'>{x}</p>
+                    descArr.map(text => (
+                        <p className='text-sm lg:text-lg mb-4 lg:pr-20'>{text}</p>
                     ))                    
                 )}  
             </li>

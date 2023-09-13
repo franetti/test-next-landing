@@ -30,7 +30,7 @@ export default function QuestionsContainer() {
       <div className='flex w-full' >
         <ul className=' w-full flex flex-col text-2xl' >
           {HelpCenter.map(x => (
-            <Questions title={x.title} questions={x.questions} />
+            <Questions title={x.title} questions={x.questions} key={x.title} />
           ))}                           
         </ul>
       </div>
