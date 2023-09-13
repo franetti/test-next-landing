@@ -1,6 +1,6 @@
 //import WokersImg from '../../public/workers.png'
 import React from 'react'
-import Steps from './components/Step.tsx'
+import Steps from './components/Steps.tsx'
 import Image from 'next/image';
 import bgImg from '../../public/workers.png';
 

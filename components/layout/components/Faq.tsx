@@ -6,24 +6,26 @@ type Props = {
     desc:string
 }
 
-function Faq( {title, desc}:Props ) {
+export default function Faq( {title, desc}:Props ) {
     const [arrow, setArrow] = useState(false);
     const handleRotate = () => setArrow(!arrow);
     const rotate = arrow ? "rotate(90deg)" : "rotate(0)"
+    const descArr = desc.split('<br>');
+    
 
     return (
         <>
             <li className='flex items-center mb-4'>
-                <BiSolidRightArrow className="mr-6 text-orange-500 cursor-pointer" style={{ transform: rotate, transition: "all 0.2s linear"}} onClick={handleRotate}/>
+                <BiSolidRightArrow className="mr-6 text-orange-500 cursor-pointer flex-shrink-0" style={{ transform: rotate, transition: "all 0.2s linear"}} onClick={handleRotate}/>
                 <p className='cursor-pointer' onClick={handleRotate}>{title}</p>
             </li>
             <li>              
                 {arrow && (
-                    <p className='text-sm lg:text-lg mb-4 lg:pr-20'>{desc}</p>
+                    descArr.map(x => (
+                        <p className='text-sm lg:text-lg mb-4 lg:pr-20'>{x}</p>
+                    ))                    
                 )}  
             </li>
         </>
     )
 }
-
-export default Faq

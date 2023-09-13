@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 import FaqsImg from '../../public/faqs.png'
-import { BiSolidRightArrow } from 'react-icons/bi';
 import {AiFillYoutube, AiFillLinkedin, AiFillFacebook} from 'react-icons/ai'
 import Faq from './components/Faq';
 import {Faqs} from '../../const/index'
+import Link from 'next/link';
 
 const FooterHeader = () => {
     return (
@@ -28,7 +28,7 @@ const FooterBottom = () => {
             <p className='hidden md:flex'>extra</p>
             <div className='flex '>
                 <nav className='flex flex-col w-full justify-start lg:flex-row lg:justify-between mt-5 '>
-                    <a className='underlne underline-offset-4 mb-2'>Visit Help Center</a>
+                    <Link className='underlne underline-offset-4 mb-2 cursor-pointer hover:underline ' href="/helpcenter">Visit Help Center</Link>
                     <div className='flex mb-2'>
                         <a><AiFillYoutube size="2em" className="mr-3"/></a>
                         <a><AiFillLinkedin size="2em" className="mr-3"/></a>
