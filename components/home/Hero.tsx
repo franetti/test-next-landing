@@ -17,7 +17,7 @@ const Hero = () => {
                 in Miami’s gig industry. Choose what’s best for you, every day.
                 </p>
                 <button className='rounded-full text-2xl md:text-2xl  2xl:text-3xl bg-orangePrimary text-white px-7 py-1 md:px-8 md:py-2 2xl:px-9 2xl:py-2'>
-                Get de App
+                Get the App
                 </button>          
             </div>                     
         </div>      
