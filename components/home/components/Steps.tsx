@@ -49,7 +49,7 @@ const Steps = () => {
                         )}
                     </ul>
                 </div>
-            </div>            
+            </div>
         </div>
     )
 }

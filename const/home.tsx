@@ -10,8 +10,8 @@ export const StepInfo: StepInfoType = {
         },
         {
             index:2,
-            title: "Post the shift",
-            desc: "Set date & time, duration, role, and hourly rate."
+            title: "Select a candidate",
+            desc: "Base your decision on the review score and the video resume."
         },
         {
             index:3,
