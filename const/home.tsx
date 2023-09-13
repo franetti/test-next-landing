@@ -15,8 +15,8 @@ export const StepInfo: StepInfoType = {
         },
         {
             index:3,
-            title: "Select a candidate",
-            desc: "Base your decision on the review score and the video resume."
+            title: "Nomad on the way",
+            desc: "Clock-in upon arrival and rate the experience once it’s over. "
         }
     ],
     worker: [
