@@ -20,8 +20,8 @@ export default function Faq( {title, desc}:Props ) {
             </li>
             <li>              
                 {arrow && (
-                    descArr.map(text => (
-                        <p className='text-sm lg:text-lg mb-4 lg:pr-20'>{text}</p>
+                    descArr.map((text,index) => (
+                        <p className='text-sm lg:text-lg mb-4 lg:pr-20' key={index}>{text}</p>
                     ))                    
                 )}  
             </li>
