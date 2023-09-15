@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import FaqsImg from '../../public/faqs.png'
+import Extra from '../../public/extra.svg'
 import {AiFillYoutube, AiFillInstagram, AiFillFacebook} from 'react-icons/ai'
 import Faq from './components/Faq';
 import {Faqs} from '../../const/index'
@@ -24,8 +25,8 @@ const FooterHeader = () => {
 
 const FooterBottom = () => {
     return (
-        <div className='flex flex-col pb-0 md:pb-5'>            
-            <p className='hidden md:flex'>extra</p>
+        <div className='flex flex-col pb-0 md:pb-5'>
+            <Image src={Extra} alt={'Extra'} className='hidden md:flex' width={50} />            
             <div className='flex '>
                 <nav className='flex flex-col w-full justify-start lg:flex-row lg:justify-between mt-5 '>
                     <Link className='underline underline-offset-4 mb-2 cursor-pointer' href="/helpcenter">Help Center</Link>

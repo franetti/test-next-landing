@@ -1,6 +1,7 @@
 'use client'
 import {useState} from 'react'
 import { BiSolidRightArrow } from 'react-icons/bi';
+import TableCancellation from './TableCancellation';
 type Props = {
     title: string,
     desc:string
@@ -21,7 +22,12 @@ export default function Faq( {title, desc}:Props ) {
             <li>              
                 {arrow && (
                     descArr.map((text,index) => (
-                        <p className='text-sm lg:text-lg mb-4 lg:pr-20' key={index}>{text}</p>
+                        <>
+                            <p className='text-sm lg:text-lg mb-4 lg:pr-20 text-justify' key={index}>{text}</p>
+                            { title === "What happens if I cancel the shift I proposed?" &&
+                                <TableCancellation/>
+                            }
+                        </>
                     ))                    
                 )}  
             </li>

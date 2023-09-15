@@ -199,7 +199,7 @@ export const HelpCenter: HelpCenterType[] = [
       {
         question: "What happens if I cancel the shift I proposed?",
         answer:
-          "At Extra we work to meet our commitments. That is why we have a cancellation policy for candidates and employers. Here is the cancellation policy for businesses:",
+          "At Extra we work to meet our commitments. That is why we have a cancellation policy for candidates and employers.Here is the cancellation policy for businesses:",
       },
       {
         question:

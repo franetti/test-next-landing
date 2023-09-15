@@ -5,7 +5,7 @@ import bgImg from '../../public/workers.webp';
 
 function Body() {
   return (    
-    <section className='w-full h-fit lg:p-0 bg-whitePrimary'>          
+    <section className='w-screen h-fit lg:p-0 bg-whitePrimary'>          
         <div className="w-full">
             <Image
               src={bgImg}
