@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 
 const poppins = Poppins({
-  weight: '400',
+  weight: ['400','700', '800'],
   preload: false,
 })
 
