@@ -17,49 +17,49 @@ export const HelpCenter: HelpCenterType[] = [
         answer: ` 
                 Extra is intended for any business and candidate who is legally entitled to work. The most frequent job listings in the app are as follows:<br><br>
                 FRONT:<br>
-                Bartender - Bartendero/a<br>
-                Barback - Bar Assistant<br>
-                Concession stand worker - Concession stand worker<br>
-                Counter Staff / Cashier - Counter Staff / Cashier<br>
+                Bartender /a<br>
+                Barback <br>
+                Concession stand worker<br>
+                Counter Staff / Cashier <br>
                 Custodian/clerk - Concierge/Office Clerk<br>
                 Food runner - Food Service Assistant<br>
                 Host - Hostess<br>
-                Laundry attendant - Encargado/a de Lavandería - Laundry attendant<br>
-                Servers - Camareros/as<br>
-                Pool attendant - Encargado/a de Piscina - Pool attendant<br>
+                Laundry attendant <br>
+                Servers <br>
+                Pool attendant -<br>
                 Wayfinder - Orientation Assistant<br><br>
                 BACK:<br>
                 Barback - Bar Assistant<br>
                 Busser - Waiter's Helper<br>
-                Cleaner / Janitor - Limpiador/a / Conserjeje<br>
-                Cook - Cocinero/a<br>
-                Dishwasher - Lavaplatos<br>
+                Cleaner / Janitor <br>
+                Cook <br>
+                Dishwasher <br>
                 Food runner - Food Service Assistant<br>
                 Housekeeper - Cleaning Manager<br>
-                Inventory counter - Inventory counter - Encargado/a de Inventario<br>
-                Laundry attendant - Encargado/a de Lavandería - Laundry attendant<br>
-                Line Cook - Line Cook<br>
-                Packaging assistant - Packaging Assistant<br>
-                Picker/Packer - Recolector/a / Empacador/a / Empacador/a<br>
-                Pool attendant - Encargado/a <br>de Piscina - Pool attendant<br>
-                Prep Cook - Prep Cook<br>
+                Inventory counter - Inventory counter <br>
+                Laundry attendant<br>
+                Line Cook<br>
+                Packaging assistant <br>
+                Picker/Packer <br>
+                Pool attendant <br>
+                Prep Cook <br>
                 Wayfinder - Orientation Assistant<br><br>
                 PHYSICALLY DEMANDING:<br>
-                Cleaner / Janitor - Limpiador/a / Conserjeje<br>
-                Custodian/clerk - Custodio<br>
+                Cleaner / Janitor<br>
+                Custodian/clerk <br>
                 Event set up & take down - Event set up & dismantling<br>
-                Material handler - Material handler<br>
-                Packaging assistant - Empaquetador asistente<br>
-                Picker/Packer - Recolector/a / Empacador/a / Empacador/a<br>
-                Pool attendant - Encargado/a de Piscina - Pool attendant<br>
+                Material handler<br>
+                Packaging assistant<br>
+                Picker/Packer <br>
+                Pool attendant <br>
                 Stagehand - Stage Assistant<br><br>
                 LICENSED:<br>
                 Car driver - Automobile driver<br>
-                Forklift driver - Forklift driver<br>
-                Line Cook - Line Cook<br>
-                Prep Cook - Prep Cook<br>
-                Truck loader - Cargador/a de Camiones<br>
-                Truck driver - Conductor/a de Camión<br>
+                Forklift driver <br>
+                Line Cook<br>
+                Prep Cook <br>
+                Truck loader <br>
+                Truck driver <br>
                 `,
       },
       {
@@ -79,6 +79,10 @@ export const HelpCenter: HelpCenterType[] = [
       {
         question: "Is there a limit to post job offers?",
         answer: "There is no limit to the number of job offers per business.",
+      },
+      {
+        question: "Is there a limit to the number of shifts I can work?",
+        answer: "There is a limit of 36 hours per week.",
       },
       {
         question: "How do shifts work?",

@@ -10,7 +10,7 @@ import Link from 'next/link';
 const FooterHeader = () => {    
     return (
         <div className='my-8 md:my-12'>
-            <p className='text-4xl lg:text-5xl font-bold'>Still got questions?</p>
+            <p className='text-4xl lg:text-5xl font-bold'>Highlighted questions</p>
             <ul className='text-2xl my-4 lg:my-16'>        
                 {Faqs.map(x => (                                    
                     <Faq title={x.title} content={x.content} key={x.title} />                        
@@ -29,7 +29,7 @@ const FooterBottom = () => {
             <Image src={Extra} alt={'Extra'} className='hidden md:flex' width={50} />            
             <div className='flex '>
                 <nav className='flex flex-col w-full justify-start lg:flex-row lg:justify-between mt-5 '>
-                    <Link className='underline underline-offset-4 mb-2 cursor-pointer' href="/helpcenter">Help Center</Link>
+                    <Link className='underline underline-offset-4 mb-2 cursor-pointer' href="/helpcenter">Help Center + FAQs</Link>
                     <div className='flex mb-2'>
                         <a><AiFillYoutube size="2em" className="mr-3"/></a>
                         <a><AiFillInstagram size="2em" className="mr-3"/></a>

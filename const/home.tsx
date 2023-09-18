@@ -28,12 +28,12 @@ export const StepInfo: StepInfoType = {
         {
             index:2,
             title: "Scroll and apply",
-            desc: "Chosose the offer that suits you best."
+            desc: "Pick the offers that suit you best."
         },
         {
             index:3,
             title: "Cover the shift",
-            desc: "Clock-out, rate the experience and the paid."
+            desc: "Clock-out, rate the experience and get the paid."
         }
     ]
 }
