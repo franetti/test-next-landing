@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Extra from '../../public/extra.svg'
 import { TbWorld } from 'react-icons/tb'
-import { GiPalmTree } from 'react-icons/gi'
+import Palmerita from '../../public/Palmerita.svg'
 import Link from 'next/link'
 
 const Header = () => {
@@ -17,7 +17,15 @@ const Header = () => {
         <nav>
             <ul className="flex">
                 <li className='hidden md:inline'>
-                    <span className="flex items-center"><TbWorld className="mr-3"/>Hello miami <GiPalmTree className="ml-3"/></span>
+                    <span className="flex items-center">
+                        <TbWorld className="mr-3" />
+                        Hello miami
+                        <Image
+                            src={Palmerita}
+                            alt='icon'
+                            className='ml-3'                  
+                        />
+                    </span>
                 </li>
             </ul> 
         </nav>

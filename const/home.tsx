@@ -6,7 +6,7 @@ export const StepInfo: StepInfoType = {
         {
             index:1,
             title: "Post the shift",
-            desc: "Set date & time, duration, role, and hourly rate."
+            desc: "Set date & time, duration, role and hourly rate."
         },
         {
             index:2,
