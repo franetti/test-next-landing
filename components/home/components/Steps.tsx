@@ -2,8 +2,8 @@
 import {useLocale, useMessages, useTranslations} from 'next-intl';
 import React from 'react'
 import Image from 'next/image'
-import BodyImg from '../../../public/BodyImg.svg'
-import BodyImgEs from '../../../public/BodyImgEs.svg'
+import BodyImg from '@/public/BodyImg.svg'
+import BodyImgEs from '@/public/BodyImgEs.svg'
 
 type Props = {
     index: string,

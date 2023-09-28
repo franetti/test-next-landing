@@ -14,7 +14,7 @@ export default function LocaleSwitcher() {
           <Link
           href={pathName}
           locale={ locale}
-          className='rounded-md border bg-black px-2 py-1 text-white mx-1'
+          className='rounded-md border bg-black px-2 py-1 text-white mx-1 hover:text-orangePrimary'
           key={locale}
           >
             {locale}
