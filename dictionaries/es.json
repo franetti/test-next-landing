@@ -1,0 +1,320 @@
+{
+  "home": {    
+    "titlehero": "La solución a<br/>tus necesidades<br/>en el trabajo casual.",
+    "subtitle1": "conecta negocios y trabajadores autónomos",
+    "subtitle2": "en busca de shifts temporales en Miami.",
+    "infoButton": "Tu eliges, todos los días",
+    "buttonHero": "Descargar App",
+    "separador":"Nos encargamos de seguros, pagos y liability.",
+    "steps": {
+      "image":"BodyImgEs.svg",
+      "stepsBusiness":"3 PASOS PARA NEGOCIOS",
+      "stepsWorker":"3 PASOS PARA TRABAJADORES AUTONOMOS",
+      "business": {
+        "business1":{
+          "index": "1",
+          "title": "Publicar el shift",
+          "desc": "Establecer fecha y horario, duración, rol y pago por hora "
+        },
+        "business2":{
+          "index": "2",
+          "title": "Seleccionar candidato",
+          "desc": "Podrás decidir en base al sistema de review y el video CV."
+        },
+        "business3":{
+          "index": "3",
+          "title": "Nomad en camino",
+          "desc": "Clock-in al llegar, califica la experiencia al terminar."
+        }
+      },
+      "worker": {
+        "worker1":{
+          "index": "1",
+          "title": "Convertirse en Nomad",
+          "desc": "Presentar form W9 y la documentación necesaria para trabajar."
+        },
+        "worker2":{
+          "index": "2",
+          "title": "Explorar y aplicar",
+          "desc": "Elige entre oferttas en base a tus necesidades y preferencias."
+        },
+        "worker3":{
+          "index": "3",
+          "title": "Cubrir el shift",
+          "desc": "Clock-out, califica la experriencia y recibe tu dinero extra."
+        }
+      }
+    },
+    "categories": {
+      "cat1":{ "description": "Hotel & condos", "image": "HotelSVG.svg" },
+      "cat2":{ "description": "Food & beverage", "image": "FoodSVG.svg" },
+      "cat3":{ "description": "Warehousing", "image": "WarehousingSVG.svg" },
+      "cat4":{ "description": "Stadium & events", "image": "EventsSVG.svg" }
+    },
+    "footer":{
+      "title":"Preguntas destacadas",
+      "button":"Contactar Equipo de Soporte",
+      "terms":"Terminos y condiciones",
+      "faqs":{
+        "faq1":{
+          "title": "Tengo un negocio",
+          "content": {
+              "a":{
+                  "subtitle": "Background check",
+                  "desc":"La base de candidatos dentro de Extra se les realiza un background check. Esto nos ayuda a determinar si están legalmente aptos para trabajar en Miami."       
+              },
+              "b":{
+                  "subtitle": "Pago",
+                  "desc":"El pago se debitará de la tarjeta de crédito que figura en el registro. Se cobrará el total del shift más la comisión de Extra del 30% sobre el valor total."       
+              }
+            }
+        },
+        "faq2":{
+          "title": "Soy un Nomad",
+          "content": {
+              "a":{
+                  "subtitle": "Sistema de Review",
+                  "desc":"Al finalizar cada turno, ambas partes se califican entre sí. El empleador calificará tu desempeño y también podrá destacar soft skills. El scoring estará compuesto por la combinación del promedio histórico y el de los últimos 10 trabajos."       
+              },
+              "b":{
+                  "subtitle": "Cobro",
+                  "desc":"El pago se realiza después  de las 72 hs del shift mediante una transferencia en los datos de tu cuenta completada en el registro. El dinero del shift se acreditará en el momento en tu balance personal en el perfil. El total del shift, compuesto por las horas trabajadas y el valor acordados de las mismas."       
+              }
+            }
+        },
+        "faq3":{
+          "title": "Liability & seguros",
+          "content": {
+              "a":{
+                  "subtitle": "Liability & seguros",
+                  "desc":"Aunque la relación laboral no se establece con Extra y es directamente con el candidato, nos aseguramos de que tengas la tranquilidad de que nos encargamos del seguro y la responsabilidad de los candidatos durante la duración del turno."       
+              }
+          } 
+        }
+      }
+    }
+  },
+  "helpCenter": {
+    "Qué es Extra":{
+      "1":{
+        "question": "¿Qué es Extra?",
+        "answer":
+          "Extra es una aplicación para trabajos por turnos, donde los empleadores publican ofertas sin importar la previsión, y los trabajadores se postulan las ofertas que prefieren. En este momento, Extra opera exclusivamente en Miami."
+      },
+      "2":{
+        "question": "¿Para quién es Extra?",
+        "answer": "Extra está diseñada para cualquier empresa y self worker que tenga este habilitado legalmente a trabajar. Las ofertas de trabajo más frecuentes en la aplicación incluyen:*br *br FRONT (Frente):*br Bartender - Bartendero/a*br Barback - Asistente de Bar *br Trabajador de puesto de concesión - Trabajador de puesto de concesión*br Personal de mostrador / Cajero - Personal de mostrador / Cajero *br Custodio/Empleado de oficina - Conserje/Empleado de Oficina*br Food runner - Asistente de Servicio de Comida*br Host - Anfitrión/Anfitriona*br Laundry attendant - Encargado/a de Lavandería*br Servidores - Camareros/as *br Pool attendant - Encargado/a de Piscina*br Wayfinder - Asistente de Orientación*br *br BACK (Espalda):*br Barback - Asistente de Bar*br Busser - Ayudante de Camarero*br Cleaner / Janitor - Limpiador/a / Conserje*br Cocinero/a*br Lavaplatos *br Food runner - Asistente de Servicio de Comida*br Gerente de Limpieza*br Encargado/a de Inventario*br Encargado/a de Lavandería*br  Cocinero de Línea*br Asistente de Empaquetado *br Recolector/a / Empacador/a *br Encargado/a de Piscina *br Cocinero de Preparación*br Asistente de Orientación*br *br FÍSICAMENTE EXIGENTE:*br Limpiador/a / Conserje*br Custodio/Empleado de Oficina *br Configuración y desmontaje de eventos*br Manipulador de Material*br Asistente de Empaquetado*br  Recolector/a / Empacador/a / Empacador/a *br Encargado/a de Piscina *brAsistente de Escenario*br *br LICENCIADO:*br Conductor de Automóviles*br Conductor de Montacargas*br Cocinero de Línea*br Cocinero de Preparación*br Cargador/a de Camiones *br Conductor/a de Camión*br "
+        },
+      "3":{
+        "question": "¿Cómo es la relación laboral?",
+        "answer":
+          "Extra está pensado para candidatos que tienen el formulario W9 que les permite trabajar de forma independiente. La relación laboral comienza y termina entre la empresa que selecciona al candidato y el candidato."
+      },
+      "4":{
+        "question": "¿Dónde está disponible?",
+        "answer": "Extra opera solo en Miami en este momento."
+      },
+      "5":{
+        "question": "Sistema de review",
+        "answer":
+          "Extra cuenta con un sistema de revisiones para ambas partes, en términos de experiencia durante el turno y habilidades blandas. Creemos que la transparencia es la mejor herramienta para seleccionar ofertas de trabajo y clientes."
+      },
+      "6":{
+        "question": "¿Hay un límite para publicar ofertas de trabajo?",
+        "answer": "No hay límite en la cantidad de ofertas de trabajo por empresa."
+      },
+      "7":{
+        "question": "¿Hay un límite en la cantidad de turnos que puedo trabajar?",
+        "answer": "El límite para que cada candidato trabaje dentro de la aplicación es de 36 horas por semana."
+      },
+      "8":{
+        "question": "¿Cómo funcionan los turnos?",
+        "answer":
+          "El clock-in, o inicio del turno, lo realiza el empleador una vez que el candidato llega a la empresa a la hora acordada. El reloj de salida, o fin del turno, lo realiza el empleado una vez que termina el turno. En caso de una discrepancia entre las partes, el equipo de Extra estará disponible para brindar una solución rápida."
+      },
+      "9":{
+        "question": "Política de cancelación",
+        "answer":
+          "Extra valora el compromiso entre las partes para cumplir con el acuerdo, así como la experiencia positiva durante el uso. Por eso, tenemos una política de cancelación diseñada para ambos perfiles de usuarios."
+      },
+      "10":{
+        "question":
+          "¿Qué sucede si la oferta de trabajo requiere equipo adicional, uniforme o consideraciones?",
+        "answer":
+          "En caso de que la oferta requiera que el candidato cumpla con ciertos requisitos de idioma, presencia, uniforme o equipo de seguridad, esto debe incluirse en la oferta y el empleado lo verá como un requisito para la solicitud."
+      }
+    },
+    "Relaciones laborales, compromisos y responsabilidades":{
+      "1":{
+        "question": "¿Cómo me aseguro de que los candidatos puedan trabajar legalmente?",
+        "answer":
+          "Si bien la metodología de contratación es una relación laboral con un freelancer, Extra se encarga del seguro y la responsabilidad para la tranquilidad tanto del empleado como del empleador."
+      },
+      "2":{
+        "question": "¿Se realiza una verificación de antecedentes?",
+        "answer":
+          "Sí, se realiza por el equipo de Extra con el consentimiento previo del trabajador."
+      }
+    },
+    "Método de pago y cobro":{
+      "1":{
+        "question": "¿Qué necesito para publicar una oferta de trabajo?",
+        "answer":
+          "Deberás crear un perfil donde completarás la información de tu empresa. Es un proceso simple y rápido, recuerda que debes tener una tarjeta de crédito para continuar."
+      },
+      "2":{
+        "question": "¿Qué necesito para solicitar una oferta de trabajo?",
+        "answer":
+          "Para solicitar una oferta de shift, deberás haber completado el registro de tu perfil. Cada oferta de shift suele tener sus propias características y es importante verificar si cumples con todos los requisitos. Recuerda que algunas ofertas suelen tener solicitudes especiales, así que es importante cumplirlas para poder aplicar. El empleador utilizará esta información para seleccionar al candidato que mejor se adapte a sus necesidades."
+      },
+      "3":{
+        "question": "¿Cómo se calcula el monto a pagar por un turno realizado?",
+        "answer":
+          "El monto a cobrar por un turno realizado se compone del precio acordado por las horas trabajadas y la comisión correspondiente del 30% sobre el valor anterior. Esto será efectivo una vez que el trabajador realice el reloj de salida."
+      },
+      "4":{
+        "question": "¿Cómo se paga el turno cubierto?",
+        "answer":
+          "Extra acreditará la cuenta bancaria ingresada en tu perfil con el monto correspondiente por el turno realizado. En caso de cancelación por parte de la empresa, se te cobrará un monto proporcional correspondiente al tiempo de anticipación de la cita."
+      },
+      "5":{
+        "question": "¿Cuánto tiempo se tarda en cobrar el pago por el turno?",
+        "answer":
+          "La acreditación será una vez por semana sobre todos los turnos finalizados 72hs antes del pay-day. El monto del turno se compone del precio acordado por las horas trabajadas y las veras reflejadas en tu balance personal apenas terminado el turno dentro de tu perfil."
+      }
+    },
+    "Negocios":{
+      "1":{
+        "question": "Responsabilidad - seguros - verificación de antecedentes",
+        "answer":
+          "Aunque la relación laboral no se establece con Extra y es directamente con el candidato, nos aseguramos de que tengas la tranquilidad de que cuidamos los seguros y la responsabilidad de los candidatos durante el turno."
+      },
+      "2":{
+        "question": "¿Cómo se registra el negocio?",
+        "answer":
+          "Deberás crear un perfil donde completarás la información de tu empresa. Es un proceso simple y rápido, recuerda que debes tener una tarjeta de crédito para continuar."
+      },
+      "3":{
+        "question": "¿Cómo publico una oferta de turno?",
+        "answer":
+          "El proceso de generación de ofertas es muy simple. Deberás completar la descripción del puesto que necesitas, el horario, las condiciones de contratación y si hay requisitos especiales. Una vez publicada la oferta, los candidatos podrán verla y aplicar."
+      },
+      "4":{
+        "question": "¿Cómo garantizamos la calidad de los trabajadores?",
+        "answer":
+          "Nuestro sistema de calificación busca no sólo calificar el cumplimiento del acuerdo sino también contemplar la totalidad de aspectos que conforman una buena experiencia laboral. Al final de cada turno, ambas partes se califican mutuamente. Como empleador, calificarás el desempeño del candidato elegido y también podrás destacar sus habilidades blandas si es necesario. En el perfil de cada solicitante, podrás revisar la puntuación consolidada compuesta por la combinación del promedio histórico y el de los últimos diez (10) trabajos."
+      },
+      "5":{
+        "question": "¿Cómo se elige un candidato?",
+        "answer":
+          "Una vez que tu oferta esté visible en la aplicación, comenzarás a recibir solicitudes de candidatos. Podrás ver las solicitudes de cada uno de ellos dentro de la aplicación y también podrás ver sus calificaciones y sus destacadas habilidades blandas. Podrás seleccionar al candidato de tu elección en cualquier momento."
+      },
+      "6":{
+        "question": "¿Qué sucede una vez que se elige al candidato?",
+        "answer":
+          "Una vez que se confirma al trabajador y el turno correspondiente, se abrirá un chat entre ambos para facilitar la coordinación. Luego, lo único que queda por hacer es esperar su llegada. Recuerda que cuando se acerque el turno, la plataforma confirmará progresivamente su asistencia. De esta manera, siempre tendremos información actualizada y un margen de acción para cumplir con el turno de tu empresa en caso de una emergencia o evento inesperado."
+      },
+      "7":{
+        "question": "¿Cómo realizar un rating a un Nomad?",
+        "answer":
+          "Cuando termine el turno, podrás dejar una reseña de tu experiencia con el candidato. Podrás calificar del 1 al 5 su desempeño en el puesto y luego podrás resaltar cualquier habilidad blanda que te haya gustado en su perfil."
+      },
+      "8":{
+        "question": "¿Cómo me comunico con el candidato que he elegido?",
+        "answer":
+          "Una vez que se confirme el turno, se abrirá un chat interno entre ambos. Sugerimos que todas las conversaciones se mantengan dentro del chat para poder informar sobre cualquier inconveniente."
+      },
+      "9":{
+        "question": "¿Qué sucede si tengo un problema durante el turno?",
+        "answer":
+          "Podrás acceder a nuestro canal de soporte para contarnos lo que sucedió y podremos proporcionarte una respuesta o solución rápida."
+      },
+      "10":{
+        "question": "¿Cómo aumentó el número de solicitantes para mi oferta?",
+        "answer":
+          "Si sientes que no estás recibiendo el volumen de candidatos que necesitas, te recomendamos revisar el pronóstico con el que estás realizando la oferta o ajustar la cantidad ofrecida por el turno."
+      },
+      "11":{
+        "question":
+          "¿Qué sucede si cancelo el turno que propuse?",
+        "answer":
+          "En Extra trabajamos para cumplir con nuestros compromisos. Por eso, tenemos una política de cancelación para candidatos y empleadores. Aquí está la política de cancelación para empresas:"
+      },
+      "12":{
+        "question":
+          "¿Qué sucede si necesito requisitos especiales para los candidatos (certificaciones, uniformes, tatuajes, etc.)?",
+        "answer":
+          "Si tu oferta requiere que el candidato cumpla con ciertas condiciones de idioma, presencia, uniforme o equipo de seguridad, puedes incluir esto en la oferta y el empleado lo verá como un requisito para su solicitud."
+      }
+    },
+    "Nomads":{
+      "1":{
+        "question": "Responsabilidad - seguros - verificación de antecedentes",
+        "answer":
+          "Aunque la metodología de contratación es la de una relación laboral con un freelancer, Extra se encarga de los seguros y la responsabilidad para que puedas realizar tu turno con tranquilidad y seguridad."
+      },
+      "2":{
+        "question": "¿Cómo te registras como nómada?",
+        "answer":
+          "En solo dos minutos, puedes crear tu perfil de Nomads. Te pediremos: *br Formulario W9 *br Información de contacto personal.*brVideo de presentación donde hables de tu experiencia laboral. Estará en tu perfil y se compartirá con el empleador cuando solicites una oferta.*brInformación de tu cuenta bancaria para recibir pagos.*brNúmero de Seguro Social y Foto del frente de tu identificación o el frente y el dorso de tu Tarjeta de Residencia/Green Card/Permiso de Trabajo (según tu estatus de residencia)*brAdjuntar tu verificación de antecedentes."
+      },
+      "3":{
+        "question": "¿Cómo se solicita una oferta de trabajo?",
+        "answer":
+          "Para solicitar una oferta de trabajo, deberás haber completado el registro de tu perfil. Cada oferta de trabajo suele tener sus propias características y es importante verificar si cumples con todos los requisitos. Recuerda que algunas ofertas a menudo tienen solicitudes especiales, como uniformes, equipos o requisitos de idioma, así que es importante cumplirlas para poder aplicar. El empleador utilizará esta información para seleccionar al candidato que mejor se adapte a sus necesidades."
+      },
+      "4":{
+        "question": "¿Qué sucede una vez que te eligen?",
+        "answer":
+          "Cuando te seleccionen para el turno, se abrirá un chat dentro de la aplicación con el empleador, lo que facilitará la coordinación. Habrá instancias de confirmación de asistencia cerca de la hora de inicio del turno. Es importante que respondas; de lo contrario, tendremos que asignar otro Nómada para cumplir con el turno acordado."
+      },
+      "5":{
+        "question": "¿Cómo se realiza el review a  un local?",
+        "answer":
+          "Cuando termine el turno, podrás dejar una reseña de tu experiencia con el negocio. Podrás evaluar tu experiencia con una calificación del 1 al 5."
+      },
+      "6":{
+        "question": "¿Cómo confirmas tu turno?",
+        "answer":
+          "Una vez que el negocio te haya elegido para el turno, se abrirá un chat interno entre ambas partes. Desde el equipo de Extra, nos pondremos en contacto contigo en un plazo de 24 horas para confirmar nuevamente el turno. Recuerda que si no confirmas nuevamente dentro de las 4 horas previas al inicio del turno, se cancelará."
+      },
+      "7":{
+        "question": "¿Cómo te pones en contacto con el lugar donde trabajarás?",
+        "answer":
+          "Una vez que se confirme el turno, se abrirá un chat interno entre ambas partes. Sugerimos que todas las conversaciones se mantengan dentro del chat para poder informar sobre cualquier inconveniente."
+      },
+      "8":{
+        "question": "¿Qué sucede si tienes un problema durante el turno?",
+        "answer":
+          "Podrás acceder a nuestro canal de soporte para contarnos lo que sucedió y podremos proporcionarte una respuesta o solución rápida."
+      },
+      "9":{
+        "question": "¿Cómo puedes aumentar tus aplicaciones aceptadas?",
+        "answer":
+          "Si sientes que no estás siendo elegido en muchas ofertas, no te preocupes. Es importante cuidar tu puntuación, pero no olvides que está compuesta por un promedio histórico y la puntuación de tus últimas 10 ofertas. Te recomendamos solicitar turnos que tengan poco tiempo de anticipación o un horario no convencional para aumentar tu calificación y aumentar tu porcentaje de selección."
+      },
+      "10":{
+        "question": "¿Qué sucede si cancelas el turno que solicitaste?",
+        "answer":
+          "En Extra trabajamos para cumplir con nuestros compromisos. Por eso, tenemos una política de cancelación para candidatos y empleadores."
+      },
+      "11":{
+        "question": "¿Qué sucede si tienes problemas para comenzar el turno?",
+        "answer":
+          "Podrás acceder a nuestro canal de soporte para contarnos lo que sucedió y podremos proporcionarte una respuesta o solución rápida."
+      },
+      "12":{
+        "question": "¿Cómo sabes si necesitas algún equipo en particular?",
+        "answer":
+          "En caso de que la oferta requiera que cumplas con ciertas condiciones de idioma, presencia, uniforme o equipo de seguridad, esto debe incluirse en la oferta y debes verlo como un requisito para tu solicitud."
+      }
+    },
+    "Metas personales":{
+      "1":{
+        "question": "¿Qué es?",
+        "answer":
+          "Es una herramienta de la app próximamente disponible en tu perfil para impulsar tu crecimiento personal. Podrás establecer metas específicas (dinero o turnos) y un período de tiempo para alcanzarlas, así como industrias de interés para que podamos sugerir ofertas de trabajo personalizadas."
+      }
+    }
+  }
+}
