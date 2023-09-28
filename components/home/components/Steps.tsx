@@ -32,13 +32,14 @@ const Steps = () => {
     const locale = useLocale();
     const messages:any = useMessages();
     const business = Object.keys(messages.home.steps.business)     
-    const worker = Object.keys(messages.home.steps.worker)             
+    const worker = Object.keys(messages.home.steps.worker)      
+    let src = locale === 'en' ? BodyImg : BodyImgEs
 
     return (
     <>
         <div className='bg-black rounded-[30px]  mb-12 mx-auto my-[-25%] w-[90%]'>
             <Image
-                src={locale === 'en' ? BodyImg : BodyImgEs}
+                src={src}
                 alt='image'
             />
         </div>
