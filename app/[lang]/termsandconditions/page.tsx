@@ -9,7 +9,7 @@ export default function Terms() {
     const locale = useLocale(); 
     const termsString = terms[locale as keyof typeof terms];
 
-    // useLayoutEffect(() => {},[locale])
+    useLayoutEffect(() => {},[locale])
     
     return (
     <>
