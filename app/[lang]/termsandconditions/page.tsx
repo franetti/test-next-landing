@@ -1,15 +1,13 @@
 'use client'
 import { useLocale } from 'next-intl';
 import terms from '@/i18n/utils/terms/index';
-import React, { useLayoutEffect } from 'react'
+import React, { useEffect } from 'react'
 
 
 
 export default function Terms() {
     const locale = useLocale(); 
-    const termsString = terms[locale as keyof typeof terms];
-
-    useLayoutEffect(() => {},[locale])
+    const termsString = terms[locale as keyof typeof terms];    
     
     return (
     <>
